@@ -1,0 +1,24 @@
+@IncidentRca_ApiHostAddress = http://localhost:5080
+
+GET {{IncidentRca_ApiHostAddress}}/health
+Accept: application/json
+
+###
+
+GET {{IncidentRca_ApiHostAddress}}/api/incidents
+Accept: application/json
+
+###
+
+GET {{IncidentRca_ApiHostAddress}}/api/incidents/INC-1001
+Accept: application/json
+
+###
+
+GET {{IncidentRca_ApiHostAddress}}/api/runbooks
+Accept: application/json
+
+###
+
+GET {{IncidentRca_ApiHostAddress}}/api/runbooks/RB-HCM-MAP-001
+Accept: application/json

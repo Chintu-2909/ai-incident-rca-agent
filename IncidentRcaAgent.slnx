@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/IncidentRca.Api/IncidentRca.Api.csproj" />
+    <Project Path="src/IncidentRca.Application/IncidentRca.Application.csproj" />
+    <Project Path="src/IncidentRca.Domain/IncidentRca.Domain.csproj" />
+    <Project Path="src/IncidentRca.Infrastructure/IncidentRca.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/IncidentRca.Tests/IncidentRca.Tests.csproj" />
+  </Folder>
+</Solution>
